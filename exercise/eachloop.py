@@ -10,21 +10,21 @@ while run:
 
     directions = ""
     for direction in doors:
-    directions = directions + ", " + direction
+        directions = directions + ", " + direction
     directions = directions[2:]
     print(directions)
 
-     # print menu
+    # print menu
     print("Where do you want to go?")
     print("1. Go north")
     print("2. Go south")
     print("1. Go west")
     print("1. Go east")
     print("5. look")
-    print("5. Quit game")
+    print("0. Quit game")
 
     # Ask for choice
-    choice = input("please enter your choice")
+    choice = input("please enter your choice ")
 
     # check user input
     if not choice.isnumeric():
@@ -47,5 +47,3 @@ while run:
         print("You are looking")
     else:
         print("You asked something i can not do!")
-
-

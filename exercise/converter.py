@@ -1,4 +1,4 @@
-"""
+
 # Ask for input
 userInput = float(input("Enter a volume in liter: "))
 userInput2 = float(input("Do you want to convert volume to: "
@@ -26,4 +26,3 @@ elif userInput2 == 5:
     print("litters is the same as " + str(cubicMeter) + " Cubic decimeter")
 else:
     print("Choose a correct conversion!")
-    """

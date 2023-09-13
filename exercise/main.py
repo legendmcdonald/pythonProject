@@ -9,7 +9,6 @@
 # sum= int(num1) + int(num2)
 # print("..."+str(sum))
 
-"""
 name = input("Enter name")
 age = input("Enter age")
 msg = ("Hej " + name + " du är " + age + " gammal")
@@ -20,7 +19,7 @@ num2 = 20
 num3 = 15
 sum = num1 + num2 + num3
 print("The average is: "+ str(sum/3))
-"""
+
 cels = int(input("Enter a celsius temperature: "))
 if cels > 20:
     print("Varmt")

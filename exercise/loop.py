@@ -1,6 +1,4 @@
-"""
-
-#for i in range(1, 20, 1):
+for i in range(1, 20, 1):
  print(i)
 
 print()
@@ -19,4 +17,3 @@ elif number2 < number1:
     print("Lower")
 else:
     print("Same")
-"""
