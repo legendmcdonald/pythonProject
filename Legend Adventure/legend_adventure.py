@@ -1,15 +1,15 @@
-# get user info
 import random
 
 score = 0
 name = ""
 
 
+# get user info
 def user_info():
     global name
     name = input("Enter your username ")
     age = int(input("Enter your age "))
-    if age < 0:
+    if age < 13:
         print("you should be at least 13 years to play!")
         exit()
     print("\nHello " + name + " welcome to Legend adventure!")
@@ -44,7 +44,7 @@ def combat_details():
     combat_options = random.randint(1, 4)
     if combat_options == 1:
         print("Well you won the battle!")
-        score += 100  # Add 10 points for winning a battle
+        score += 100  # Add 100 points for winning a battle
     elif combat_options == 2:
         print("You got to escape. Hurry find somewhere to go now!")
         score += 50
@@ -96,7 +96,7 @@ while run:
             combat_details()
         elif "treasure" in encounter_result:
             print("You found a treasure!")
-            score += 100  # Add 20 points for finding treasure
+            score += 100  # Add 100 points for finding treasure
         else:
             score += 20
     else:
