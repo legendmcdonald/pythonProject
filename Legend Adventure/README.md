@@ -4,7 +4,7 @@
 
 The "Legend Adventure Game" is a text-based Python game that takes players on a journey through various locations filled with encounters and challenges. The game offers the following features:
 
-- **User Info:** Players are prompted to enter their username and age at the beginning. The game checks if the player is old enough to play.
+- **User Info:** Players are prompted to enter their username and age at the beginning. The game checks if the player is old enough to play should be older than 13.
 
 - **Game Loop:** The core of the game is a loop that allows players to navigate through different locations and make choices.
 
